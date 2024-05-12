@@ -11,17 +11,17 @@ import org.d3if0099.asesment2.model.Penghuni
 @Dao
 interface PenghuniDao {
     @Insert
-    suspend fun insert(mahasiswa: Penghuni)
+    suspend fun insert(penghuni: Penghuni)
 
     @Update
-    suspend fun update(mahasiswa: Penghuni)
+    suspend fun update(penghuni: Penghuni)
 
-    @Query("SELECT * FROM mahasiswa ORDER BY gedung, lantai, nokamar, nama ASC")
+    @Query("SELECT * FROM penghuni ORDER BY gedung, lantai, nokamar, nama ASC")
     fun getMahasiswa(): Flow<List<Penghuni>>
 
-    @Query("SELECT * FROM mahasiswa WHERE id = :id")
+    @Query("SELECT * FROM penghuni WHERE id = :id")
     suspend fun getMahasiswaById(id: Long): Penghuni?
 
-    @Query("DELETE FROM mahasiswa WHERE id = :id")
+    @Query("DELETE FROM penghuni WHERE id = :id")
     suspend fun deleteById(id: Long)
 }
