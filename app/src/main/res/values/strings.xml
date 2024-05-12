@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BookTel</string>
+
+    <!-- STRING DATA DIKLIK & BELUM ADA DATA -->
+    <string name="list_kosong">Belum ada data</string>
+    <string name="x_diklik">%1$s diklik!</string>
+    <string name="invalid">Nama, No kamar, lantai dan gedung harus di isi!</string>
+    <string name="lainnya">Pilihan Lainnya</string>
+
+    <!-- STRING NAMA & NO KAMAR & GEDUNG -->
+    <string name="nama">Nama</string>
+    <string name="nokamar">Nomor kamar</string>
+    <string name="gedung">Nomor gedung</string>
+
+    <!-- STRING KEMBALI & SIMPAN -->
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+
+
+    <!-- STRING TAMBAH DATA PENGHUNI & UBAH DATA PENGHUNI -->
+    <string name="tambah_penghuni">Tambah Data Penghuni</string>
+    <string name="edit_penghuni">Ubah Data Penghuni</string>
+    <string name="hapus">Hapus Data Penghuni</string>
+
+    <!--  STRING TOMBOL RESPONSIVE  -->
+    <string name="list">Tampilan List</string>
+    <string name="grid">Tampilan Grid</string>
+
+    <!--  STRING TOMBOL WARNING HAPUS PESAN & BATAL  -->
+    <string name="pesan_hapus">Hapus Data Penghuni Ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+
+</resources>
